@@ -3,7 +3,6 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { env } from "~/env";
 
-
 const genAI = new GoogleGenerativeAI(env.API_KEY);
 const model = genAI.getGenerativeModel({ model: "gemini-pro"});
 
