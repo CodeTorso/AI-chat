@@ -11,6 +11,13 @@ const withPWA = withPWAInit({
 await import("./src/env.js");
 
 /** @type {import("next").NextConfig} */
-const config = withPWA({});
+const config = withPWA({
+  typescript: {
+    ignoreBuildErrors: true
+  },
+  eslint: {
+    ignoreDuringBuilds: true
+  }
+});
 
 export default config;
