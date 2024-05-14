@@ -12,5 +12,5 @@ export async function run(search:string) {
     const response = result.response.text();
     return response;
   }
-  return "some text necessary"
+  return "Enter some text atlesat"
 }
