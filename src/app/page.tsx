@@ -19,6 +19,7 @@ import { run } from "~/lib/actions";
 import { Input } from "~/components/ui/input";
 import { Skeleton } from "~/components/ui/skeleton";
 
+
 const FormSchema = z.object({
   search: z.string().min(8, {
     message: "Minimum 8 charaters required to serach.",

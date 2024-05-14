@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+sw.*
+workbox-*
+swe-worker-*
 # testing
 /coverage
 
